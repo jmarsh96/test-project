@@ -4,7 +4,7 @@ N <- 10000
 muX <- 2.5
 varX <- 1.5
 
-X <- rnorm(N, muX, varX)
+X <- rnorm(N, muX, sqrt(varX))
 
 mean(X)
 var(X)

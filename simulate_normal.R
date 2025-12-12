@@ -1,7 +1,7 @@
 # Simulate data from a normal distribution and save to CSV
 
 N <- 10000
-muX <- 2.0
+muX <- 2.5
 varX <- 1.5
 
 X <- rnorm(N, muX, varX)
